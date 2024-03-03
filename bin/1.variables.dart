@@ -15,10 +15,13 @@ void main(){
   //Boolean
   bool _bool = true;
 
+  dynamic myDynamic = 10;
+  myDynamic = "dfuosho";
+
 
   //Function
-  Function _function = (String one, int intPeram){
-    return one;
+  void Function(double, String) _function = (double one, String intPeram){
+
   };
 
   //typedef

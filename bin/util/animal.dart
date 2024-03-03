@@ -9,12 +9,12 @@ class Animal{
     return _name;
   }
 
-  int _age;
+  int age;
 
-  Animal(this._name, this._age);
+  Animal(this._name, this.age);
 
   void printAnimalProperties() {
-    print('Name of the animal is $_name & age is $_age');
+    print('Name of the animal is $_name & age is $age');
   }
 }
 

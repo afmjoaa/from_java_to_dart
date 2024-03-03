@@ -16,7 +16,7 @@ class NumberCreator{
 
   var _count = 1;
 
-  final StreamController _controller = StreamController<int>();
+  final StreamController<int> _controller = StreamController<int>();
   Stream<int> get stream => _controller.stream;
   StreamSink<int> get sink => _controller.sink;
 

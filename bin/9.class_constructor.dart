@@ -23,7 +23,7 @@ void main() {
 class Human extends LivingBeing{
   final String gender;
   final String name;
-  String _profession;
+  late String _profession;
 
   set profession(value) {
     _profession = value;

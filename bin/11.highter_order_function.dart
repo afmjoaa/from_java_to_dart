@@ -13,6 +13,7 @@ void main(){
 
   printMyName('Karim');
 
+
   //HOD example
   void calculate(double a, double b, MathOperation operation){
     print(operation(a, b));
@@ -34,7 +35,7 @@ void main(){
     return a/b;
   }
 
-  calculate(2, 3, addOperation);
+  calculate(2, 3, divideOperation);
 }
 
 typedef MathOperation = double Function(double a, double b);

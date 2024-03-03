@@ -1,10 +1,10 @@
 
 class Season{
 
-  double temperature; //Fahrenheit
-  double rainFall; //unit mm
+  late double temperature; //Fahrenheit
+  late double rainFall; //unit mm
   double averageHumidity = 30.0; //unit percentile
-  List<String> fruitList;
+  late List<String> fruitList;
 
   Season(){
     print('temperature: $temperature\n'
